@@ -36,8 +36,6 @@ router.post(
       res.status(500).send("Server Error");
       console.error(error);
     }
-
-    res.send("ok");
   }
 );
 
